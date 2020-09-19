@@ -27,4 +27,7 @@ Execute no Visual Studio
 ![foto (3)](https://user-images.githubusercontent.com/48391086/93690572-2e86dd80-fab0-11ea-8083-4aa633373456.jpg)
 
 
+Aguarde o npm instalar as dependencias no visual studio, e o app abrirá automaticamente no seu navegador.
+
+
 
