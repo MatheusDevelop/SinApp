@@ -1,0 +1,140 @@
+body {
+  transition:.5s all linear;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #fff;
+ 
+
+    
+
+}
+::-webkit-scrollbar-track {
+  background-color: #F4F4F4;
+}
+::-webkit-scrollbar {
+  width: 6px;
+  background: #F4F4F4;
+}
+::-webkit-scrollbar-thumb {
+  background: #dad7d7;
+}
+.tShadow{
+  text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.185);
+
+}
+.text-dark{
+  color:#3B413C!important;
+  text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.185);
+
+}
+.text-white{
+  color:#FFF!important;
+}
+.font-lg{
+  font-size: 36px;
+  
+}
+.zfooter{
+  z-index: 1;
+}
+.zall{
+  z-index: 2;
+}
+.font-md{
+  font-size: 34px;
+}
+.font-sm{
+  font-size: 18px;
+  font-weight: lighter;
+}
+.fadeIn{
+  animation: fadeIn .8s linear;
+}
+@keyframes fadeIn{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+.textbox{
+  width:280px;
+}
+.bg-white{
+  background-color: #fff!important;
+}
+.bg-primary{
+  background: linear-gradient(10deg,#d6d6dd,#B3B3DB)!important;
+}
+.bg-secondary{
+  background:linear-gradient(10deg,#a7a7f8, #6666FF)!important;
+
+}
+.bg-terciary{
+  background:linear-gradient( 10deg,#89ecd5,#2AFACA)!important;
+}
+.bg-quadriary{
+  background:linear-gradient(10deg,#f36d69,#F34742)!important;
+}
+.bshadow{
+  box-shadow: 0px 0px 6px rgba(58, 57, 57, 0.247), -3px -3px 6px rgba(255, 255, 255, 0.226);
+}
+.rounded-left{
+  border-top-left-radius: 8px!important;
+  border-bottom-left-radius: 8px!important;
+}
+.rounded{
+  border-radius: 8px!important;
+}
+.button__md{
+  
+  cursor: pointer;
+  min-width: 80px;
+  padding:5px 10px;
+  display: flex;
+  
+  border-radius: 25px;  
+  justify-content: space-between;
+}
+button{
+  border:0!important;
+}
+.button__circle{
+
+  transition: .5s all ease-in;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.button__md{
+  transition: .5s all ease-in;
+  
+  cursor: pointer;
+  min-width: 80px;
+  padding:5px 10px;
+  display: flex;
+  
+  border-radius: 25px;  
+  justify-content: space-between;
+}
+
+.button__lg{
+  transition: .5s all ease-in;
+  cursor: pointer;
+  max-width: 150px;
+  padding:5px 10px;
+  display: flex;
+  
+  border-radius: 25px;  
+  justify-content: space-around;
+}
+.button__lg:hover,.button__md:hover,.button__circle:hover{
+  box-shadow: 0px 0px 10px rgb(253, 253, 253);
+}
+
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

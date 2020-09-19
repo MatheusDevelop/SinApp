@@ -1,0 +1,23 @@
+
+.dropdown__title{
+    color:#B3B3DB;
+    font-weight: bolder;
+    cursor: pointer;
+    z-index: 2;
+}
+.dropdown__menu{
+    display: none;
+    position: absolute;
+    
+    padding:20px;
+    border-radius: 5px;
+    z-index: 5;
+}
+.dropdown__menu div{
+    color:#B3B3DB;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.dropdown:hover .dropdown__menu{
+    display: block;
+}
